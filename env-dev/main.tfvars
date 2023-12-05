@@ -14,5 +14,7 @@ parameters = [
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.gehana26.online"},
   { name = "dev.cart.catalogue_port", value = "8080"},
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.gehana26.online:8080"},
-  { name = "dev.shipping.db_host", value = "mysql-dev.gehana26.online"}
+  { name = "dev.shipping.db_host", value = "mysql-dev.gehana26.online"},
+  { name = "dev.shipping.db_user", value = "root"},
+  { name = "dev.shipping.db_pass", value = "RoboShop@1"}
 ]
