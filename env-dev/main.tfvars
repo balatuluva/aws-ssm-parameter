@@ -21,10 +21,14 @@ parameters = [
   { name = "dev.payment.user_host", value = "user-dev.gehana26.online"},
   { name = "dev.payment.user_port", value = "8080"},
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.gehana26.online"},
-  { name = "dev.payment.amqp_user", value = "roboshop"}
+  { name = "dev.payment.amqp_user", value = "roboshop"},
+  { name = "dev.dispatch.amqp_host", value = "rabbitmq-dev.gehana26.online"},
+  { name = "dev.dispatch.amqp_user", value = "roboshop"}
 ]
 
 passwords = [
   { name = "dev.payment.amqp_pass", value = "roboshop123"},
-  { name = "dev.shipping.db_pass", value = "RoboShop@1"}
+  { name = "dev.shipping.db_pass", value = "RoboShop@1"},
+  { name = "dev.dispatch.amqp_pass", value = "roboshop123"}
 ]
+
